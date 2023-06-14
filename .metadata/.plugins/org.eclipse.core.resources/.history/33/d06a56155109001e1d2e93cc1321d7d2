@@ -1,0 +1,28 @@
+package LinkedList;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class List1 {
+	
+	public static void main(String args[]) {
+		
+		List<String> list = new LinkedList<String>();
+		
+		list.add("satish");
+		
+		
+		Iterator<String> itr = list.iterator();
+		
+		while (itr.hasNext()) {
+			String string = (String) itr.next();
+			
+			System.out.println("string");
+		}
+		
+	
+		
+		
+	}
+}

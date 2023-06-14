@@ -1,0 +1,53 @@
+package ArrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+class Student {
+	int rollno;
+	String name; 
+	long phoneno;
+	String addres ;
+	
+	Student(int rollno, String name , long phoneno , String addres){
+		this.rollno=rollno;
+		this.name=name;
+		this.phoneno=phoneno;
+		this.addres= addres;
+	}
+	
+}
+
+
+
+public class ArrayList2 {
+	
+	
+	
+	
+		public static void main(String args[]) {
+			Scanner sc = new Scanner(System.in);
+			List list = new ArrayList<Student>();
+			Student s ;
+			System.out.print("Enter the number : ");
+				int con = sc.nextInt();
+				
+				do {
+					int roll = sc.nextInt();
+					String name = sc.next();
+					long phone= sc.nextLong();
+					String add = sc.next();
+					
+					list.add(new Student(roll,name,phone,add));
+					
+				System.out.println("Student is added");
+					
+				return;
+					
+				} while (con == 0);
+			
+
+		}
+}
+   

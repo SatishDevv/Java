@@ -1,0 +1,38 @@
+package ArrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+class Student {
+	int rollno;
+	String name; 
+	long phoneno;
+	String addres ;
+	
+	Student(int rollno, String name , long phoneno , String addres){
+		this.rollno=rollno;
+		this.name=name;
+		this.phoneno=phoneno;
+		this.addres= addres;
+	}
+	
+}
+
+
+
+public class ArrayList2 {
+	
+	
+	
+	
+		public static void main(String args[]) {
+			Scanner sc = new Scanner(System.in);
+			List list = new ArrayList<Student>();
+			//Student s ;
+			
+			
+
+		}
+}
+   
