@@ -14,4 +14,5 @@
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
     <fullyQualifiedTypeName name="learnJDBC.Connection"/>
+    <fullyQualifiedTypeName name="Array.FindMaximumValue"/>
 </qualifiedTypeNameHistroy>
