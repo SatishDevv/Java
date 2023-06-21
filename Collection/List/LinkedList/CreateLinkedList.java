@@ -1,5 +1,5 @@
 package LinkedList;
-
+// this is an hard code LinkedList Overview.
 public class CreateLinkedList {
 	
 	public static class Node{

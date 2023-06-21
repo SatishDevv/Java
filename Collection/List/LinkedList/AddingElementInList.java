@@ -4,13 +4,15 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class List1 {
+public class AddingElementInList {
 	
 	public static void main(String args[]) {
 		// It creating a empty LinkedList of String .
 		List<String> list = new LinkedList<String>();
 		// It process of adding the element in LinkedList 
 		list.add("satish");
+		list.add("mayar");
+		list.add("divakar");
 		
 		// It is iterator interface is used to iterating the element forward.
 		Iterator <String> itr = list.iterator();
