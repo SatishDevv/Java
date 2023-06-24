@@ -19,7 +19,7 @@ public class EmpInsert {
 		Statement stm = con.createStatement();
 		
 		//4 
-		int count = stm.executeUpdate("Insert into employee values (103,'satish',9075414838,'sangamner')");
+		int count = stm.executeUpdate("Insert into employee values (113,'satish',9075414838,'sangamner')");
 		if(count!=0) {
 			System.out.println("record Insert");
 		}
