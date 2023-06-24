@@ -23,10 +23,7 @@ public class FetchData {
 	 	
 	 	ResultSet resultSet = preparedStatement.executeQuery();
 	 	
-	 	while (resultSet.next()) {
-	 		
-			
-		}
+	 
 		
 	}
 

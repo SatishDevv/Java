@@ -1,0 +1,31 @@
+
+JDBC STATEMENT:
+	
+	1. Statements in JDBC abstract the SQL statements
+	2. Primary interface to the tables in the database
+	3. Used to create, retrieve, update & delete data (CRUD) from a table
+	Syntax: Statement statement = connection.createStatement();
+	4. Three types of statements each reflecting a specific SQL statements
+		• Statement 
+		• PreparedSta 
+		• CallableStatement
+		
+STATEMENT : 
+			
+			I]. It is used when SQL query is to be executed only once.
+			II]. you can not pass parameters at runtime.
+			III].Used for CREATE, ALTER, DROP statements.
+			IV]. Performance is very low.
+			V]. It is base interface.
+			VI]. Used to execute normal SQL queries.
+			VII]. This interface cannot be used for retrieving data from database.
+			
+			JDBC
+METHODS TO EXECUTE STATEMENT
+	There are 3 Methods to execute statement
+	
+		execute(): 
+			• This method is used for all the commands like DDL,DML,DQL. 
+			• Return type of execute method is Boolean. 
+			• Return true when DQL commands are used. 
+			• Return false when other than DQL commands are used.
