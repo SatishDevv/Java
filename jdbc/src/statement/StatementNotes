@@ -29,3 +29,6 @@ METHODS TO EXECUTE STATEMENT
 			• Return type of execute method is Boolean. 
 			• Return true when DQL commands are used. 
 			• Return false when other than DQL commands are used.
+			
+			
+			

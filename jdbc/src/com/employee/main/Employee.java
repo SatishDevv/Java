@@ -2,6 +2,7 @@ package com.employee.main;
 
 public class Employee {
 
+
 	private int EMPID;
 	private String FName;
 	private String lName;
@@ -15,8 +16,7 @@ public class Employee {
 
 
 
-	public Employee(int EMPID, String FName, String lName, Long phoneNo, double salary, String address, String position,
-			int managerID) {
+	public Employee(int EMPID, String FName, String lName, Long phoneNo, double salary, String address, String position,int managerID) {
 		super();
 		this.EMPID = EMPID;
 		this.FName = FName;

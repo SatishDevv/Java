@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class UpdateData {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		Scanner scanner = new Scanner(System.in);
+		 Scanner scanner = new Scanner(System.in);
 		 final String CLASS_PATH = "com.mysql.cj.jdbc.Driver";
 		 final String DATABASE_URL = "jdbc:mysql://localhost:3306/studentdb";
 		 final String USER_NAME = "root";

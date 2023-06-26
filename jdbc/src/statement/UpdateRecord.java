@@ -26,9 +26,9 @@ public class UpdateRecord {
 			System.out.println("Recored Updated ");
 		} else {
 			System.out.println("Failed to Updates  ");
-		}
-		
+	
 		connection.close();
+		}
 	}
 
 }
