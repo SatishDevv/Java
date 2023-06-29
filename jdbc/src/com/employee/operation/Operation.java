@@ -57,8 +57,7 @@ public class Operation {
 				+ employee.getlName() + " \t \t " + employee.getPhoneNo() + "\t  " + employee.getSalary()+" \t "+employee.getAddress() +" \t \t "+employee.getPosition() + " \t \t "+employee.getManagerID() +" \t | " );
 	}//end of  the private printEmployee() method
 	
-	
-	
+		
 	public boolean getEmployeeById(int EMPID) throws SQLException {
 		
 		boolean isFound = false;
