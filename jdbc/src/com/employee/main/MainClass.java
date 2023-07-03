@@ -9,7 +9,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		 Operation operation = new Operation();	
 		
-		MainClass mainclass = new MainClass();
+//		MainClass mainclass = new MainClass();
 		
 		try (Scanner scanner = new Scanner(System.in);) {
 			boolean isRunning = true;

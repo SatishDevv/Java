@@ -108,7 +108,7 @@ public class Operation {
 		PreparedStatement preparedStatement = connection.prepareStatement(Query.UpdateEmployeeQuery(employee.getEMPID()));
 		
 		preparedStatement.setString(1, employee.getFName());
-		preparedStatement.setString(2, employee.getAddress());
+		preparedStatement.setString(2, employee.getlName());
 		preparedStatement.setLong(3,   employee.getPhoneNo());
 		preparedStatement.setDouble(4, employee.getSalary());
 		preparedStatement.setString(5, employee.getAddress());

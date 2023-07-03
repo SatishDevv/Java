@@ -27,4 +27,8 @@ public class DataBaseUtil {
 		return DriverManager.getConnection(DATABASE_URL,USER_NAME,PASSWORD );
 	}//end of getConnection Method
 
+	
+
 }
+
+
