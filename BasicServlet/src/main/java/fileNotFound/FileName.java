@@ -1,6 +1,8 @@
 package fileNotFound;
 
+import java.awt.print.Printable;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.GenericServlet;
 import javax.servlet.ServletException;
@@ -11,9 +13,14 @@ public class FileName extends GenericServlet {
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-		System.out.println("Sorry sir we can't access this file this file is  : ");
+		
+		req.getInputStream();
+		
+		
+			
 		
 	}
 	
 
 }
+

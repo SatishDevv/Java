@@ -11,6 +11,16 @@
 	<servlet-mapping>
 		<servlet-name>satish</servlet-name>
 		<url-pattern>/satish</url-pattern>
-
 	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>name</servlet-name>
+		<servlet-class>fileNotFound.DisplayName</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>name</servlet-name>
+		<url-pattern>/hii</url-pattern>
+	</servlet-mapping>
+	
+	
 </web-app>
