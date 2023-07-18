@@ -15,10 +15,12 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginController extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String email=req.getParameter("email");
-		String password=req.getParameter("password");
 		Employee employee = new Employee();
 		EmployeeCRUD crud=new EmployeeCRUD();
+		
+		String email=req.getParameter("email");
+		String password=req.getParameter("password");
+
 		try {
 			String dbpassword=crud.getPassword(email);
 			if(password.equals(dbpassword)) {

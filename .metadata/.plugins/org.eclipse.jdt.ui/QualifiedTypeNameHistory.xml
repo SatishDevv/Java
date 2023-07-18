@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.jdbc.employee.DataBaseUtil"/>
-    <fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
-    <fullyQualifiedTypeName name="prepasedStatement.PreStatement"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.employee.operation.Operation"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="com.employee.operation.InsertQuery"/>
-    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
-    <fullyQualifiedTypeName name="com.employee.operation.Query"/>
-    <fullyQualifiedTypeName name="com.employee.main.Employee"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputFilter"/>
-    <fullyQualifiedTypeName name="com.person.Person"/>
-    <fullyQualifiedTypeName name="com.person.PersonCRUD"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="com.jdbc.application.User"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.protocol.x.SyncFlushDeflaterOutputStream"/>
     <fullyQualifiedTypeName name="com.jdbc.application.UserOperations"/>
     <fullyQualifiedTypeName name="com.jdbc.product.BatchExecution"/>
     <fullyQualifiedTypeName name="com.jdbc.product.Product"/>
@@ -44,7 +24,6 @@
     <fullyQualifiedTypeName name="student_addmision.SignUpJdbc"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="com.fullstackweb.registration.RegistrationServlet"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSessionContext"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -54,10 +33,31 @@
     <fullyQualifiedTypeName name="java_server_page.CURDOperations"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.sql.JDBCType"/>
     <fullyQualifiedTypeName name="com.fullstackweb.registration.JdbcConnection"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+    <fullyQualifiedTypeName name="hibermate.Employee"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="CurdOperations.Operations"/>
+    <fullyQualifiedTypeName name="CurdOperations.Student.Marks"/>
+    <fullyQualifiedTypeName name="CurdOperations.Student"/>
+    <fullyQualifiedTypeName name="javax.persistence.UniqueConstraint"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="hibernate_student.dto.Student"/>
+    <fullyQualifiedTypeName name="hibernate_student.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

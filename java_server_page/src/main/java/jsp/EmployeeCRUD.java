@@ -31,6 +31,8 @@ public class EmployeeCRUD {
 	
 		return rows;
 	}
+	
+	
 	public String getPassword(String email) throws Exception {
 		Connection connection=getConnection();
 		PreparedStatement preparedStatement=connection.prepareStatement("select password from employee where email=?");
@@ -45,6 +47,7 @@ public class EmployeeCRUD {
 		return password;
 		
 	}
+	
 	public List<Employee> getAllEmployee() throws Exception {
 		Connection connection=getConnection();
 		PreparedStatement preparedStatement=connection.prepareStatement("select * from employee");
@@ -93,6 +96,8 @@ public class EmployeeCRUD {
 		return employee;
 		
 	}
+	
+	
 	public int editEmployee(Employee employee) throws Exception {
 		Connection connection=getConnection();
 		PreparedStatement preparedStatement=connection.prepareStatement("update employee set name=?,phone=?,address=?,email=?,password=? where id=?");
