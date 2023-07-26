@@ -34,7 +34,7 @@
 		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
 		id="mainNav">
 		<div class="container">
-			<a class="navbar-brand" href="#page-top">SATISH Developer</a>
+			<a class="navbar-brand" href="#page-top">Vamshi Developer</a>
 			<button
 				class="navbar-toggler text-uppercase font-weight-bold bg-info text-white rounded"
 				type="button" data-bs-toggle="collapse"
