@@ -17,7 +17,7 @@ public class AadharCard {
 	private String adress ; 
 	
 	@OneToOne
-	Person person ;
+	 private Person person ;
 
 	public int getAadhar_id() {
 		return Aadhar_id;

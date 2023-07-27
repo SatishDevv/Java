@@ -1,9 +1,11 @@
 package onetoone_bio.dto;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
@@ -15,7 +17,9 @@ public class Person {
 	
 	private long phone ;
 	private String adderss ;
-	@OneToOne
+	
+	@OneToOne(cascade = CascadeType.PERSIST)
+	@JoinColumn
 	private AadharCard aadharCard;
 	public int getPerson_id() {
 		return Person_id;
@@ -47,6 +51,13 @@ public class Person {
 	public void setAadharCard(AadharCard aadharCard) {
 		this.aadharCard = aadharCard;
 	}
+	
+	@Override
+	public String toString() {
+		return "Person [Person_id=" + Person_id + ", name=" + name + ", phone=" + phone + ", adderss=" + adderss
+				+ ", aadharCard=" + aadharCard + "]";
+	}
+	
 	
 	
 	

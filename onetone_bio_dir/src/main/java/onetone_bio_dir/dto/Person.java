@@ -21,7 +21,7 @@ public class Person {
 	private String gender ;
 	
 	@OneToOne
-	AadharCard aadharCard ;
+	private AadharCard aadharCard ;
 
 	public int getPerson_id() {
 		return Person_id;
