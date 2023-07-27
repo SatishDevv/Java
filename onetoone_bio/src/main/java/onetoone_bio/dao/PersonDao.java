@@ -26,7 +26,7 @@ public class PersonDao {
 	
 	//Update the Person 
 	public void updatePerson(Person person) {
-		
+		findByPerson(0); 
 	}
 	
 	//Delete the Person By ID 

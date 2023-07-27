@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java_server_page.Employee"/>
-    <fullyQualifiedTypeName name="java_server_page.BackEnd"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java_server_page.CURDOperations"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
@@ -26,7 +23,6 @@
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="hibernate_user.dao.Operations"/>
     <fullyQualifiedTypeName name="hibernate_user.dto.User"/>
-    <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="onetoone_nui.dto.AdarCard"/>
     <fullyQualifiedTypeName name="onetoone_nui.dto.Person"/>
@@ -42,10 +38,6 @@
     <fullyQualifiedTypeName name="onetone_bio_dir.dto.Person"/>
     <fullyQualifiedTypeName name="onetone_bio_dir.dto.AadharCard"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
-    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
-    <fullyQualifiedTypeName name="onetoone_bio.dao.PersonDao"/>
-    <fullyQualifiedTypeName name="onetoone_bio.dto.Person"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.persistence.Query"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="otm_mto_bio.dto.Student"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.build.AllowSysOut"/>
+    <fullyQualifiedTypeName name="onetoone_bio.dao.PersonDao"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="onetoone_bio.dto.Person"/>
 </qualifiedTypeNameHistroy>
